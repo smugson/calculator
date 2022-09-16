@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="cal-container">
+            <div class="cal-frame">
+                <div id="screen" class="calscreen">
+                    <div class="topscreen" data-show-operation id="showoperand"></div>
+                    <div class="lowerscreen" data-solve-operation id="num"></div>
+                </div>
+
+                <div class="cancel">
+                    <button class="btn1" data-cancel id="btn">CANCEL</button>
+                </div>
+                <div class="delete">
+                    <button class="btn1" data-del id="btn">DELETE</button>
+                </div>
+
+                <div class="btn">
+                    <button class="btn1" data-number>7</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number>8</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number id="9">9</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-operation id="÷"> ÷ </button>
+                </div>
+
+                <div class="btn">
+                    <button class="btn1" data-number id="4">4</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number id="5">5</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number>6</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-operation id="×"> × </button>
+                </div>
+
+                <div class="btn">
+                    <button class="btn1" data-number id="1">1</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number id="2">2</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number id="3">3</button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-operation id="+"> + </button>
+                </div>
+
+                <div class="btn">
+                    <button class="btn1" data-number id="."> . </button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-number id="0"> 0 </button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-equal id="="> = </button>
+                </div>
+                <div class="btn">
+                    <button class="btn1" data-operation id="-"> - </button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <P>
+                &copy copyright <span id="year"></span>
+            </P>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
